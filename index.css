@@ -1,0 +1,40 @@
+/* importing an outside font */
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+#title {
+    font-family: "Skranji", Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.horizonal-line {
+    border: 3px solid white;
+    width: 500px;
+}
+
+/*
+using grouping to reduce repetition
+object fit is used to specify how the img should be resized to fit its container
+using cover, the img keeps its aspect ratio and fills in the given dimension, so that it fits correctly
+goal is to make the img into a sqaure
+*/
+.pancakes,
+.gumbo,
+.jambalaya {
+    object-fit: cover;
+    width: 223px;
+    height: 223px;
+    border: 5px solid white;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+body {
+    background-color: rgb(180, 158, 33);
+    text-align: center;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
