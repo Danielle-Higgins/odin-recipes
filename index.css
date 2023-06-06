@@ -1,6 +1,9 @@
 /* importing an outside font */
 @import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
 
+/*
+even though IDs are not advised for styling unless grabbed using JavaScript, I want to practice using different selectors
+*/
 #title {
     font-family: "Skranji", Helvetica, sans-serif;
     font-size: 50px;
