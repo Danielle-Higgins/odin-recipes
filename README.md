@@ -14,6 +14,14 @@ Skills I will have demonstrated once completed:
         - Unordered
     - Header elements
 
+- Basic CSS such as
+    - Selectors such as
+        - Type
+        - Class
+        - ID
+        - Grouping
+    - Basic CSS properties
+
 ## Thoughts
 So far the project wasn't too bad. I had fun building this project and can't wait to start styling it using CSS.
 I'll continue to work on this and make it look more appealing to look at, while also practicing more HTML and CSS.
