@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Skranji&display=swap');
+
+/*
+margin is the space AROUND an element
+By assigning auto to the left and right margins of an element, they take up the available horizontal space in the element’s container equally – and thus the element gets centered.
+auto in both top and bottom margins is always computed to 0px (except for absolute elements).
+so we can use auto to center a block element horizontally
+setting the margin to 0px makes the all the elements touch the viewport
+
+padding is the space BETWEEN the content and the border
+*/
+.wrapper, .container {
+    border-radius: 25px;
+    margin: auto;
+    background-color: rgb(34, 31, 31);
+}
+
+.container {
+    border: 4px solid orange;
+    color: white;
+    width: 700px;
+    text-align: center;
+}
+
+.wrapper {
+    border: 4px solid white;
+    width: 710px;
+    padding: 2px;
+}
+
+.title, h2, h3 {
+    font-family: "Shadows Into Light", Helvetica, sans-serif;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 40px;
+    margin: 20px 100px;
+}
+
+/* overridng the text-align property */
+.description, .lists, .home {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+.description, .lists {
+    margin: 0px 40px;
+}
+
+.lists {
+    margin-bottom: 30px;
+}
+
+/* text-decoration removes the underline */
+.home {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(180, 158, 33);
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+
+h2, h3 {
+    margin: 40px 150px;
+}
+
+li {
+    margin: 15px;
+}
