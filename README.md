@@ -1,4 +1,7 @@
-# odin-recipes
+# Odin Recipes: <a target="_blank" href="https://danielle-higgins.github.io/odin-recipes/index.html">Visit Here</a>
+
+<img src="https://github.com/Danielle-Higgins/odin-recipes/blob/main/images/recipes-preview.png">
+
 This project is a basic website of recipes of my favorite foods. This is my first project while going through
 the Odin Project curriculum and won't look pretty at first since this is built using basic HTML. I will revist
 this project to add styling using CSS.
