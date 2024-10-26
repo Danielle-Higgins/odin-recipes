@@ -2,29 +2,21 @@
 
 <img src="https://github.com/Danielle-Higgins/odin-recipes/blob/main/images/recipes-preview.png">
 
-This project is a basic website of recipes of my favorite foods. This is my first project while going through
-the Odin Project curriculum and won't look pretty at first since this is built using basic HTML. I will revist
-this project to add styling using CSS.
+Take a look at the recipes of some of my favorite food!
 
-## Skills
-Skills I will have demonstrated once completed:
-- Basic HTML such as
-    - Paragraph element
-    - Anchor element
-    - Image element
-    - Lists
-        - Ordered
-        - Unordered
-    - Header elements
+## Tech Used
 
-- Basic CSS such as
-    - Selectors such as
-        - Type
-        - Class
-        - ID
-        - Grouping
-    - Basic CSS properties
+<p>
+    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+    <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+</p>
 
-## Thoughts
-So far the project wasn't too bad. I had fun building this project and can't wait to start styling it using CSS.
-I'll continue to work on this and make it look more appealing to look at, while also practicing more HTML and CSS.
+I built this using just html and css. There's more than one html file however.
+
+## Optimizations
+
+If/when I improve this project, I would start by making it more responsive. I would also like to have more than just three recipes available. I would do some research to see if there are any APIs that I could use.
+
+## Lessons Learned:
+
+Separation of concerns. How to link to external html files.
