@@ -4,15 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes | Home</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
-    <h1>Odin Recipes</h1>
+    <h1 class="title">Odin Recipes</h1>
 
-    <ul>
-      <li><a href="./recipes/jambalaya.html">Jambalaya</a></li>
-      <li><a href="./recipes/lo-mein.html">Lo Mein Noodle</a></li>
-      <li><a href="./recipes/seafood-boil.html">Dave's Low Country Boil</a></li>
+    <p class="tagline">
+      Simple, reliable recipes designed for beginners who want to master the
+      bascis of the kitchen without the stress.
+    </p>
+
+    <img
+      src="./img/ingredients.jpg"
+      width="700"
+      alt="A table of ingredients."
+    />
+
+    <h2 class="featured">Our Featured Recipes</h2>
+
+    <ul class="recipe-list">
+      <li>
+        <a href="./recipes/jambalaya.html">Jambalaya</a>
+        <p>A one-pot Cajun classic.</p>
+        <i class="fa-solid fa-arrow-right"></i>
+      </li>
+      <li>
+        <a href="./recipes/lo-mein.html">Lo Mein Noodles</a>
+        <p>Faster than delivery and better for you.</p>
+        <i class="fa-solid fa-arrow-right"></i>
+      </li>
+      <li>
+        <a href="./recipes/seafood-boil.html">Dave's Low Country Boil</a>
+        <p>The ultimate easy dinner for a crowd.</p>
+        <i class="fa-solid fa-arrow-right"></i>
+      </li>
     </ul>
+
+    <div class="card">
+      <h3><i class="fa-solid fa-lightbulb"></i> Beginner Tip: Prep is Key</h3>
+      <p>
+        Before you turn on the stove, chop all your vegetables and measure your
+        spices. Professional chefs call this "mise en place," but we just call
+        it making things easy on yourself!
+      </p>
+    </div>
   </body>
 </html>
