@@ -88,8 +88,7 @@ a {
   margin-bottom: 10px;
 }
 
-.ingredients h2,
-.steps h2 {
+.ingredients h2 {
   margin-top: 20px;
 }
 
@@ -111,6 +110,10 @@ a {
 .ingredients ul li i {
   font-size: 25px;
   vertical-align: middle;
+}
+
+.steps h2 {
+  margin-top: 20px;
 }
 
 .steps ol li {
