@@ -7,6 +7,10 @@
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   background-color: #fdfcf7;
   max-width: 700px; /* width of the images */
@@ -14,7 +18,8 @@ body {
   padding: 20px 10px;
 }
 
-ul {
+ul,
+ol {
   list-style: none;
 }
 
@@ -38,35 +43,30 @@ a {
 
 .tagline {
   margin-bottom: 60px;
-  max-width: 500px;
 }
 
-.featured {
+.home-link {
   color: rgb(132, 79, 25);
-  border-bottom: 2px solid rgb(142, 125, 112);
-  padding-bottom: 15px;
-  margin-bottom: 20px;
-}
-
-.recipe-list li {
-  border-bottom: 2px solid rgb(142, 125, 112);
-  padding-bottom: 15px;
-  margin-bottom: 20px;
-}
-
-.recipe-list li a {
-  font-size: 25px;
-  font-weight: bold;
-  display: block;
-}
-
-.recipe-list li p {
   display: inline-block;
-  min-width: 95%;
+  padding: 30px 0 0;
 }
 
-.recipe-list li i {
-  font-size: 20px;
+.section h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.section p {
+  margin-bottom: 20px;
+}
+
+.section span {
+  font-weight: bold;
+}
+
+.section ul li,
+.section ol li {
+  margin-bottom: 10px;
 }
 
 .card {
@@ -87,3 +87,83 @@ a {
   font-weight: 500;
   margin-bottom: 10px;
 }
+
+.ingredients h2 {
+  margin-top: 20px;
+}
+
+.ingredients ul {
+  background-color: rgb(251, 243, 236);
+  border: 3px solid rgb(132, 79, 25);
+  padding: 20px;
+}
+
+.ingredients ul li {
+  border-bottom: 2px solid rgb(132, 79, 25);
+  padding: 20px 0;
+}
+
+.ingredients ul li:last-child {
+  border-bottom: none;
+}
+
+.ingredients ul li i {
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+.steps ol li {
+  margin-bottom: 25px;
+}
+
+.steps ol li span {
+  color: rgb(132, 79, 25);
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: block;
+  border: 2px solid transparent;
+  width: fit-content;
+  margin: auto;
+  background-color: rgb(132, 79, 25);
+  color: white;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+/* index.html page styles */
+
+.featured {
+  color: rgb(132, 79, 25);
+  border-bottom: 2px solid rgb(142, 125, 112);
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.recipe-list li {
+  border-bottom: 2px solid rgb(142, 125, 112);
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.recipe-list li a {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.recipe-list li p {
+  display: inline-block;
+  min-width: 95%;
+}
+
+.recipe-list li i {
+  font-size: 20px;
+}
+
+/* jambalaya.html page styles */
