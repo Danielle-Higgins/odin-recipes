@@ -1,5 +1,7 @@
 # Odin Recipes: <a href="https://danielle-higgins.github.io/odin-recipes/" target="_blank">Visit Here</a>
 
+<img src="https://github.com/Danielle-Higgins/odin-recipes/blob/main/img/odin-recipes-preview.png">
+
 Are you a noob when it comes to cooking a meal? Well Odin Recipes is a great place to start! Learn how to cook three simples dishes where the steps to make said dishes are easy to follow. Each recipe comes with a description, the ingredients, and the steps of how to make each dish. Each dish will link to the Allrecipes website where you'll be able to research even more recipes to improve your cooking skills!
 
 ## Tech Used
